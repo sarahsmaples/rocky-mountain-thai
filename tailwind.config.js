@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         'dark-bg': '#141e21',
         'accent': '#ccbc89',
+        'light-blue': '#4a9db8',
       },
       fontFamily: {
         'cormorant': ['"Cormorant Garamond"', 'serif'],

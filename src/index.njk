@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   </section>
 
   <!-- Gallery Strip -->
-  <section class="gallery-strip-section relative overflow-hidden bg-dark-bg" style="height: 220px;">
+  <section class="gallery-strip-section relative overflow-hidden" style="height: 220px; background: #4a9db8;">
     <div class="gallery-strip-track" id="galleryStripTrack">
       {% set stripImages = [
         "g1.jpg","g2.jpg","g3.jpg","g4.jpg","g5.jpg",
@@ -213,9 +213,9 @@ document.addEventListener("DOMContentLoaded", async () => {
         <div data-animate="fade-left" class="flex-1 max-w-md">
           <p class="text-gray-600 font-light text-xl leading-relaxed mb-6">Join us for dinner at Rocky Mountain Thai Kitchen — Leadville's destination for authentic Thai cuisine. Reservations are recommended, especially on weekends.</p>
           <p class="text-gray-600 font-light text-xl leading-relaxed mb-6">Use the widget to check availability and book your table in just a few clicks. Our reservations are managed through 88 Restaurants, making it easy to plan your visit ahead of time.</p>
-          <p class="text-gray-500 font-light text-base">Dining with a group of 11 or more? <a href="{{ '/parties/' | url }}" class="text-accent hover:text-gray-900 underline underline-offset-2 transition-colors duration-300">Fill out our party inquiry form</a> for a tailored experience.</p>
+          <p class="text-gray-500 font-light text-xl">Dining with a group of 11 or more? <a href="{{ '/parties/' | url }}" class="text-accent hover:text-gray-900 underline underline-offset-2 transition-colors duration-300">Fill out our party inquiry form</a> for a tailored experience.</p>
         </div>
-        <div data-animate="fade-right" class="shrink-0">
+        <div data-animate="fade-right" class="shrink-0 flex justify-center">
           <iframe id="widget" width="300" height="442" src="https://88restaurants.com/1155/widgets/5155" style="border: none; background: none; border-radius: 5px;"></iframe>
         </div>
       </div>
